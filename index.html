@@ -38,6 +38,7 @@
             btn_color_1: '#ABEF5F',
             btn_color_2: 'rgba(171, 239, 95, 0.5)',         
             aro_btn_color: 'rgba(28, 28, 28, 1)',
+            ft_bg_color: 'rgba(28, 28, 28, 1)',
             concept_color: 'rgba(231, 193, 211, 1)',
             process_color: 'rgba(239, 218, 110, 1)',
             supervision_color: 'rgba(164, 218, 195, 1)',
@@ -45,6 +46,7 @@
             h_btn_color: 'rgba(73, 73, 73, 1)',
             s_btn_color: 'rgba(115, 115, 115, 1)',
             heading_color: 'rgba(33, 33, 33, 1)',
+            ft_title_color: 'rgba(233, 233, 233, 1)',
           },
           },
         },
@@ -268,6 +270,34 @@
     </main>
 
     <!-- footer section -->
-    <footer></footer>
+    <footer class="bg-ft_bg_color">
+      <div class="max-w-screen-lg mx-auto px-8">
+        <div class="lg:pt-24 pt-16">
+          <div class="flex gap-2 justify-center text-center px-4 py-2 rounded-full w-fit mx-auto">
+            <button class="bg-btn_color_1 rounded-full w-8 h-8 my-auto"><i class="fa-solid fa-arrow-right-long -rotate-45"></i></button>
+            <a class="text-ft_title_color text-3xl font-extrabold">Rinterio</a>
+          </div>
+          <div class="text-center">
+            <p class="font-medium text-base text-s_btn_color lg:px-40 lg:mb-12 mb-4 mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+        </div>
+        <div class="">
+          <ul class="flex flex-col lg:flex-row gap-8 justify-center text-center lg:menu lg:menu-horizontal lg:gap-28">
+            <li><a class="text-ft_title_color font-extrabold text-base">Home</a></li>
+            <li><a class="text-ft_title_color font-normal text-base">Services</a></li>
+            <li><a class="text-ft_title_color font-normal text-base">Portfolio</a></li>
+            <li><a class="text-ft_title_color font-normal text-base">Blogs</a></li>
+            <li><a class="text-ft_title_color font-normal text-base">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="mt-12 lg:pb-24 pb-16">
+            <div class="flex gap-2 bg-btn_color_1 px-4 py-2 rounded-full w-fit mx-auto">
+              <button class="font-extrabold text-xl">Book Consult</button>
+              <button class="bg-black rounded-full w-8 h-8"><i class="fa-solid text-white fa-arrow-right-long -rotate-45"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
